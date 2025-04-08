@@ -86,7 +86,7 @@ public class Calculator extends JFrame implements ActionListener {
 	}
 
 	private double add(double num1, double num2) {
-		return 0;
+		return num1 + num2;
 	}
 
 	private double subtract(double num1, double num2) {
