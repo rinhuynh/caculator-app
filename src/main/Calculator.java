@@ -98,7 +98,11 @@ public class Calculator extends JFrame implements ActionListener {
 	}
 
 	private double divide(double num1, double num2) {
-		return 0;
+		if (num2 == 0) {
+                                result.setText("Cannot divide by zero!");
+                                return 0; 
+               }
+                                return num1 / num2;
 	}
 
 	private double power(double num1, double num2) {
