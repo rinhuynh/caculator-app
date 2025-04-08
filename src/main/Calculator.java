@@ -102,16 +102,12 @@ public class Calculator extends JFrame implements ActionListener {
 	}
 
 	private double power(double num1, double num2) {
-		return 0;
+		return Math.pow(num1, num2);
 	}
 
 	public static void main(String[] args) {
 		new Calculator();
 	}
-
-	  private double power(double num1, double num2) {
-        return Math.pow(num1, num2);
-    }
 
     public static void main(String[] args) {
         new Calculator();
